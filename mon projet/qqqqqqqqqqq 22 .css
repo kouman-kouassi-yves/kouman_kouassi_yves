@@ -1,0 +1,223 @@
+* {
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le remplissage par défaut */
+    box-sizing: border-box; /* Pour un meilleur contrôle sur les dimensions */
+}
+
+#Entête {
+    background-image: url("Logos/microsoft/image 5.jpg"); /* Chemin vers l'image d'arrière-plan */
+    background-size: cover; /* Couvre toute la zone */
+    position: relative; /* Pour la positionnement des éléments internes */
+    transform: matrix3d(); /* À revoir si nécessaire, peut ne pas être utile */
+    transition: 1s; /* Transition pour les animations */
+}
+
+#Photo_de_Profil {
+    text-align: center; /* Centre le contenu */
+}
+
+.Photo_de_Profil {
+    margin-top: 17px; /* Espace au-dessus de la photo */
+    width: 450px; /* Largeur de la photo */
+    height: 450px; /* Hauteur de la photo */
+    border-radius: 50%; /* Pour une photo circulaire */
+    border: 10px solid orangered; /* Bordure orange */
+}
+
+.nom {
+    background-color: orangered; /* Couleur de fond de la zone de nom */
+    color: rgb(8, 8, 8); /* Couleur du texte */
+    padding: 10px; /* Espace intérieur */
+    margin-top: -12px; /* Ajustement de la marge */
+    text-align: center; /* Centre le texte */
+    font-family: 'Times New Roman', Times, serif; /* Police */
+    font-weight: bolder; /* Gras */
+    font-size: 35px; /* Taille de la police */
+}
+
+#sac_à_menu {
+    width: 100%; /* Prend toute la largeur */
+    height: 50px; /* Hauteur du menu */
+    background-color: rgb(7, 73, 10); /* Couleur de fond */
+    border-bottom: 1px solid rgb(219, 33, 1); /* Bordure inférieure */
+}
+
+.club_menu {
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: center; /* Centre les éléments */
+    list-style-type: none; /* Supprime les puces de la liste */
+    height: 100%; /* Prend toute la hauteur */
+    line-height: 50px; /* Aligne le texte verticalement */
+    font-family: 'Times New Roman', Times, serif; /* Police */
+    font-weight: bold; /* Gras */
+}
+
+.element {
+    color: whitesmoke; /* Couleur du texte */
+    text-decoration: underline; /* Souligne le texte */
+    cursor: pointer; /* Curseur en main */
+    font-size: 18px; /* Taille de la police */
+    margin: 0 30px; /* Espacement latéral */
+    flex-shrink: 0; /* Évite le rétrécissement */
+    padding: 0 10px; /* Espace intérieur */
+}
+
+.element:hover {
+    background-color: azure; /* Couleur de fond au survol */
+    color: black; /* Couleur du texte au survol */
+}
+
+.icône {
+    color: orange; /* Couleur de l'icône */
+    font-size: 15px; /* Taille de l'icône */
+}
+
+#club_sous-menu {
+    position: absolute; /* Positionné par rapport au parent */
+    display: none; /* Cacher par défaut */
+}
+
+.sous-menu {
+    position: relative; /* Position relative pour le sous-menu */
+    top: -2px; /* Ajustement vertical */
+    background: #32572ef5; /* Couleur de fond */
+    list-style-type: none; /* Supprime les puces */
+    padding: 0 4px; /* Espace intérieur */
+    border-bottom: 1px solid bisque; /* Bordure inférieure */
+    text-align: center; /* Centre le texte */
+}
+
+.sous-menu a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #f5faac; /* Couleur du texte */
+    font-size: 15px; /* Taille de la police */
+    padding: 14px; /* Espace intérieur */
+}
+
+.sous-menu a:hover {
+    background-color: rgb(146, 138, 115); /* Couleur de fond au survol */
+    color: #101111; /* Couleur du texte au survol */
+}
+
+.message, .agenda {
+    padding: 25px; /* Espace intérieur */
+    border: 2px solid rgb(31, 77, 77); /* Bordure */
+    width: 50%; /* Largeur */
+    font-size: 17px; /* Taille de la police */
+    justify-content: baseline; /* Justification du contenu */
+}
+
+#le_corps {
+    background-color: gray; /* Couleur de fond */
+    display: flex; /* Affiche les éléments en ligne */
+    padding: 20px; /* Espace intérieur */
+}
+
+.titre-message, .titre-agenda {
+    color: #41160a; /* Couleur du texte */
+    background: #d8c3c3; /* Couleur de fond */
+    text-align: center; /* Centre le texte */
+    border-bottom: 1px solid; /* Bordure inférieure */
+    margin-bottom: 15px; /* Marge inférieure */
+}
+
+#Jaime, #inviter, #Pas_maintenant {
+    padding: 10px; /* Espace intérieur */
+}
+
+#Jaime {
+    background-color: rgb(55, 132, 247); /* Couleur de fond */
+}
+
+#inviter {
+    background-color: rgb(67, 206, 3); /* Couleur de fond */
+}
+
+#Pas_maintenant {
+    text-align: right; /* Alignement à droite */
+    background: #d85f5f; /* Couleur de fond */
+}
+
+.mes_boutons {
+    text-align: right; /* Alignement à droite */
+    padding: 0 15px; /* Espace intérieur */
+}
+
+.voir-mon-cv {
+    padding: 15px 14px; /* Espace intérieur */
+    margin-top: 32px; /* Marge supérieure */
+    border-radius: 27px; /* Coins arrondis */
+    background: #59fa59; /* Couleur de fond */
+    border: 3px solid orangered; /* Bordure */
+    color: whitesmoke; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Gras */
+    font-size: 16px; /* Taille de la police */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+#voir_mon_cv, #Télécharger_le_cv {
+    text-align: left; /* Alignement à gauche */
+    background: #000; /* Couleur de fond */
+    border-radius: 29px; /* Coins arrondis */
+    padding: 10px; /* Espace intérieur */
+    color: rgb(233, 154, 8); /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Gras */
+    font-size: 16px; /* Taille de la police */
+}
+
+#voir_mon_cv:hover, #Télécharger_le_cv:hover {
+    border-radius: 29px; /* Coins arrondis */
+    padding: 10px; /* Espace intérieur */
+    background-color: #ff2103; /* Couleur de fond au survol */
+    color: rgb(0, 4, 7); /* Couleur du texte au survol */
+    border: 2px solid rgb(10, 10, 10); /* Bordure */
+}
+
+#mes_pages {
+    margin-top: 15px; /* Marge supérieure */
+    background: #58052f; /* Couleur de fond */
+    border: 2px solid gray; /* Bordure */
+    padding: 10px; /* Espace intérieur */
+    display: flex; /* Affiche les éléments en ligne */
+    padding-bottom: 25px; /* Espace inférieur */
+}
+
+.fab.fa-facebook-f, .fab.fa-whatsapp {
+    border: 1px solid blue; /* Bordure */
+    padding: 9px; /* Espace intérieur */
+    border-radius: 100%; /* Bordures arrondies */
+    background: #f8f8fa; /* Couleur de fond */
+    font-size: 24px; /* Taille de la police */
+    color: #0650ee; /* Couleur de Facebook */
+}
+
+.case_facebook, .case_whatsApp {
+    width: 25%; /* Largeur */
+    border-radius: 50%; /* Bordures arrondies */
+    display: flex; /* Affiche les éléments en ligne */
+}
+
+.lien_fb, .lien_whatsapp {
+    color: whitesmoke; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Centre le texte */
+    box-shadow: 7px 7px 1px rgb(43, 176, 253); /* Ombre */
+    padding: 30px; /* Espace intérieur */
+    border-radius: 50%; /* Bordures arrondies */
+    display: flex; /* Affiche les éléments en ligne */
+}
+
+.lien_whatsapp:hover, .lien_fb:hover {
+    background: gray; /* Couleur de fond au survol */
+    box-shadow: 7px 7px 1px rgb(209, 211, 207); /* Ombre au survol */
+}
+
+footer {
+    padding: 40px; /* Espace intérieur */
+    background: #41160a; /* Couleur de fond */
+    font-size: 15px; /* Taille de la police */
+    text-align: center; /* Centre le texte */
+    color: rgb(252, 34, 5); /* Couleur du texte */
+}

@@ -1,0 +1,364 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+
+
+#Entête{
+    background-image: url("Logos\ microsoft/image 5.jpg");
+    background-size: cover;
+    position:relative;
+    transform: matrix3d();
+   transition: 1s;
+}
+#Photo_de_Profil{
+    /* border-bottom: 7px solid rgb(252, 253, 252); */
+    /* display: flex; */
+    text-align: center;
+    /* background: #f3721d; */
+    
+}
+
+.Photo_de_Profil{
+   
+    transform: matrix3d();
+    transition: 1s;
+
+    margin-top: 17px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 10px solid #834703f8; */
+    border:10px solid orangered;
+    border-bottom:0.5px  #eff0eff8;
+}
+
+.nom{
+       transform: matrix3d();
+   transition: 3s;
+    background-color:orangered;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    margin-top: -12px;
+    /* width: 70%; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#sac_à_menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 73, 10);
+    border-bottom: 1px solid rgb(219, 33, 1);
+}
+
+
+.club_menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 100%;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: oblique; */
+    font-weight: bold;
+}
+.element{
+    color:whitesmoke;
+    text-decoration: underline;
+  cursor:pointer;
+  font-size: 18px;
+  margin:0px 30px;  
+  flex-shrink:0;
+  padding: 0px 10px;
+  /* border-left: 1px solid whitesmoke; */
+}
+.element:hover{
+    background-color: azure;
+    color: black;
+}
+.element:hover > #club_sous-menu{
+    display:block;
+}
+.icône{
+    color: orange;
+   font-size: 15px;
+}
+.club_menu :nth-child(4){
+   margin-right: 15px;
+}
+#club_sous-menu{
+    position: relative;
+    top: 3px;
+    display: none;
+    /* background-color: red; */
+    /* padding: 5px; */
+}
+.sous-menu  {
+    position: relative;
+    top: -2px;
+    background: #32572ef5;
+    list-style-type: none;
+    padding:0px 4px;
+    /* margin: 2px 0px; */
+    border-bottom: 1px solid bisque ;
+    text-align: center;
+}
+.sous-menu a {
+    /* background-color: rgb(201, 58, 137); */
+    text-decoration: none;
+    color: #f5faac;
+    font-size: 15px;
+    padding:14px 14px;
+    /* margin: -10px; */
+}
+.sous-menu a:hover{
+    background-color: rgb(146, 138, 115);
+    color: #101111;
+    /* font-size: 17px; */
+}
+ 
+
+.message{
+    background-color: #f0f790;
+    padding: 35px;
+    border: 2px solid rgb(31, 77, 77);
+    width: 47%;
+    font-size: 17px;
+    justify-content: baseline;
+}
+#le_corps{
+    background-color: rgb(216, 211, 211);
+    display: flex;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.titre-message{
+    color: #41160a;
+    background: #d8c3c3;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+.agenda{
+    background: #886902;
+    /* background-color: #f0f790; */
+    padding: 25px;
+    border: 2px solid rgb(31, 77, 77);
+    width: 50%;
+    color: azure;
+    font-size: 17px;
+    justify-content: baseline;
+}
+
+.titre-agenda{
+    color: #41160a;
+    background: #d8c3c3;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+
+
+#Jaime,#inviter,#Pas_maintenant{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#Jaime{
+    justify-content: baseline;
+    background-color: rgb(55, 132, 247);
+}
+#inviter{
+    justify-content: center;
+ background-color: rgb(67, 206, 3);   
+}
+#Pas_maintenant{
+    text-align: right;
+    background: #d85f5f;
+}
+.mes_boutons{
+    /* align-items: end; */
+    text-align: right;
+    padding: 0 15px;
+}
+.cursus-scolaire .sous-menu{
+    background-color: #40583a;
+    text-decoration: none;
+}
+.cursus-scolaire :hover{
+    background: #978b8b;
+}
+.voir-mon-cv{
+    /* width: 60%; */
+    padding: 60%;
+    margin-top: 32px;
+    border-radius: 27px;
+    background: #59fa59;
+    padding: 15px 14px;
+    border: 3px solid orangered;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* .voir-mon-cv:hover{
+
+    border: none;
+    padding: 10px;
+} */
+#voir_mon_cv{
+    text-align: left;
+    background: #000;
+    border-radius: 29px;
+    padding: 10px;
+    color: rgb(233, 154, 8);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+#voir_mon_cv:hover{
+    border-radius: 29px;
+    padding: 10px;
+    background-color: #ff2103;
+    color: rgb(0, 4, 7);
+    border: 2px solid rgb(10, 10, 10);
+    /* box-shadow: 1px 10px 20px rgb(6, 6, 235); */
+}
+#Télécharger_le_cv{
+    background: #000;
+    border-radius: 29px;
+    padding: 10px;
+    color: rgb(233, 154, 8);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    
+}
+#Télécharger_le_cv:hover{
+    border-radius: 29px;
+    padding: 10px;
+    background-color: #ff2103;
+    color: rgb(0, 4, 7);
+    border: 2px solid rgb(10, 10, 10);
+    /* box-shadow: 1px 10px 20px rgb(6, 6, 235); */
+}
+
+
+
+
+
+
+#mes_pages{
+    margin-top: 15px;
+    background: #58052f;
+    border: 2px solid gray;
+    padding: 10px;
+   display: flex;
+   padding-bottom: 25px;
+}
+
+
+
+.fab.fa-facebook-f {
+    border:1px solid blue;
+    padding: 9px;
+    border-radius: 100%;
+    background: #f8f8fa;
+  font-size: 24px;
+  /* margin-left: 15px; */
+  /* margin-top: 20px; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #0650ee; /* Couleur de Facebook */
+  /* margin-right: 8px; Espace entre l'icône et le texte */
+}
+
+
+.case_facebook{
+    /* background-color: #0650ee; */
+    width: 25%;
+    border-radius: 50%;
+    /* padding: 20px; */
+    display: flex;
+    /* margin-left: 1%; */
+    
+}
+.lien_fb{
+    /* margin-left: -14px; */
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0429fc;
+    box-shadow: 7px 7px 1px rgb(43, 176, 253);
+    padding: 30px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.fab.fa-whatsapp {
+    border:1px solid rgb(30, 255, 0);
+    padding: 9px;
+    border-radius: 100%;
+    background: #f8f8fa;
+  font-size: 22px;
+  
+    font-size: 24px;
+    color: #25D366; /* Couleur de WhatsApp */
+    margin-right: 8px;
+}
+.case_whatsApp{
+    /* background-color: #0650ee; */
+    width: 25%;
+    border-radius: 50%;
+    /* margin-top: -37%; */
+    /* padding: 20px; */
+    display: flex;
+    /* margin-left: 1%; */
+    
+}
+.lien_whatsapp{
+    /* margin-left: -14px; */
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    background-color: #134616;
+    box-shadow: 7px 7px 1px rgb(73, 177, 4);
+    padding: 27px;
+    border-radius: 50%;
+    display: flex;
+}
+.lien_whatsapp:hover{
+    background: gray;
+    box-shadow: 7px 7px 1px rgb(209, 211, 207);
+}
+.lien_fb:hover{
+    background: gray;
+    box-shadow: 7px 7px 1px rgb(209, 211, 207);
+}
+
+
+
+
+
+
+
+footer{
+    padding: 40px;
+    background: #41160a;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(252, 34, 5);
+}
+

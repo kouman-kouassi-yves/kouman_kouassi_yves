@@ -1,0 +1,122 @@
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+}
+
+/* Style de l'en-tête */
+header {
+    background: #333; /* Couleur d'arrière-plan de l'en-tête */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 0;
+}
+
+#Entête {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Photo_de_Profil {
+    display: flex;
+    align-items: center;
+}
+
+.Photo_de_Profil {
+    width: 100px; /* Largeur de la photo de profil */
+    height: 100px; /* Hauteur de la photo de profil */
+    border-radius: 50%; /* Pour un style de photo circulaire */
+    margin-right: 15px; /* Espace à droite de la photo */
+}
+
+.nom {
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+/* Style du menu */
+.club_menu {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le remplissage */
+}
+
+.element {
+    cursor: pointer; /* Change le curseur pour indiquer la cliquabilité */
+    padding: 10px; /* Ajoute du remplissage autour des éléments */
+    position: relative; /* Position relative pour le sous-menu */
+}
+
+.element:hover {
+    background: #444; /* Change le fond au survol */
+}
+
+.icône {
+    margin-left: 5px; /* Espace entre le texte et l'icône */
+}
+
+/* Style pour les sous-menus */
+.sous-menu {
+    display: none; /* Cache les sous-menus par défaut */
+    position: absolute; /* Positionne les sous-menus par rapport à leur parent */
+    background: #333; /* Couleur de fond du sous-menu */
+    padding: 10px; /* Ajoute du remplissage au sous-menu */
+    z-index: 1; /* Assure que le sous-menu soit au-dessus des autres éléments */
+}
+
+.element:hover .sous-menu {
+    display: block; /* Affiche le sous-menu au survol */
+}
+
+/* Style du corps principal */
+main {
+    padding: 20px; /* Ajoute du remplissage autour du contenu principal */
+    background: white; /* Couleur de fond blanche pour le contenu */
+    border-radius: 5px; /* Arrondit les coins */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+/* Style des titres dans le corps */
+.titre-message, .titre-agenda {
+    color: #333; /* Couleur des titres */
+}
+
+/* Style des boutons de partage */
+.mes_boutons {
+    margin-top: 20px; /* Marge au-dessus du groupe de boutons */
+}
+
+/* Style des liens des réseaux sociaux */
+.case_facebook, .case_whatsapp {
+    display: flex;
+    /* display: inline-block; Affiche les éléments en ligne */
+    margin-right: 15px; /* Espace entre les blocs */
+}
+
+/* Style des liens */
+.lien_fb, .lien_whatsapp {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #fff; /* Couleur blanche pour le texte */
+    padding: 10px; /* Ajoute du remplissage autour des liens */
+    border-radius: 5px; /* Arrondit les coins des liens */
+    background-color: #007bff; /* Couleur de fond des liens */
+}
+
+.lien_whatsapp {
+    background-color: #25D366; /* Couleur spécifique pour WhatsApp */
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center; /* Centre le texte */
+    padding: 10px 0; /* Ajoute du remplissage autour du pied de page */
+    background: #333; /* Couleur d'arrière-plan du pied de page */
+    color: #fff; /* Couleur du texte */
+    position: relative; /* Position relative pour permettre un positionnement futur */
+}
+
+/* Style pour le compteur J'aime */
+#like_count {
+    font-weight: bold; /* Met en gras le compteur */
+}

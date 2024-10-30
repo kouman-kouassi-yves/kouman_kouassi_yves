@@ -1,0 +1,194 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    background-color: brown;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.s{
+    color: rgb(236, 115, 9);
+    background-color: azure;
+    padding: 55px 20px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 297px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 80px;
+}
+.titre{
+    margin-top: 90px;
+    font-size: 50px;
+    margin-left: 15px;
+    /* vertical-align: middle; */
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+.bienvenu-message{
+    padding: 17px;
+    background-color: rgb(245, 128, 26);
+    border-bottom: 4px solid gray;
+}
+.message{
+    text-align: center;
+    color: rgb(250, 250, 4);
+    font-size: 30px;
+}
+.premier-a{
+    font-size: 38px;
+    color: blue;
+    font-weight: bolder;
+}
+.PA1{
+    /* color: rgba(211, 132, 63, 0.589); */
+    font-size: 19px;
+}
+#formulaire{
+    border: 3px solid rgb(177, 160, 115);
+    padding: 8px;
+    /* display: flex; */
+    display: flex;
+    /* width: 50%; */
+    justify-content: center;
+    background-color: gray;
+}
+
+#formulaire input{
+    background-color: aliceblue;
+    height: 25px;
+    width: 305px;
+    /* margin: 7px 0px; */
+    border: 1px solid rgb(112, 108, 91);
+    box-shadow: 1px 2px 3px rgb(138, 138, 86);
+}
+#formulaire input:hover{
+ border: 1px solid rgb(112, 108, 91);
+    box-shadow: 1px 2px 7px rgb(43, 255, 0);
+    /* background-color: rgb(138, 138, 86);    */
+    color: blue;
+
+}
+fieldset legend{
+    color: rgb(241, 243, 241);
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(21, 95, 207, 0.945);
+    padding: 0px 14px;
+}
+.g1,.g2{
+    background: #d3cdcd;
+    /* display: flex; */
+    margin: 7px;
+    align-items: flex-end;
+    text-align: center;
+    padding: 10px;
+}
+.desg1,.desg2{
+    background: #5c54544d;
+    padding: 10px;
+    
+}
+#zone1,#zone2{
+    max-width:500px;
+    max-height:80px ;
+}
+#Soumettre{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    padding: 7px 20px;
+    background-color: rgb(231, 189, 136);
+    
+}
+.trait{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    size: 12px;
+    height: 8px;
+    background-color: rgb(148, 133, 110);
+}
+
+.premier-cycle{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.second-cycle{
+    margin-top: 15px;
+    color: rgb(38, 0, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+#toute-section {
+    background-color: #d3cdcd;
+    margin: 15px 1px;
+   
+}
+#premier-cycle .titre_de_section{
+    text-align: center;
+    background-color: rgb(228, 250, 128);
+    /* padding-bottom: 17px ;
+    padding-top: 15px; */
+    line-height: 50px;
+    border-bottom: 2px solid rgba(255, 140, 0, 0.397);
+}
+#premier-cycle .titre_de_section a{
+    text-decoration: none;
+    color: black;
+}
+#premier-cycle li{
+    list-style-type: square;
+    /* background-color: rgb(151, 83, 19); */
+    /* text-align: center; */
+    justify-content:center;
+    border-bottom: 2px solid rgb(236, 163, 5) ;
+    margin: 7px;
+    /* width: 150px; */
+}
+ 
+#second-cycle .titre_de_section{
+    text-align: center;
+    background-color: rgb(5, 145, 17);
+    /* padding-bottom: 17px ;
+    padding-top: 15px; */
+    line-height: 50px;
+    border-bottom: 2px solid rgba(36, 250, 72, 0.932);
+}
+#second-cycle .titre_de_section a{
+    text-decoration: none;
+    color: black;
+}
+#second-cycle li{
+    list-style-type: square;
+    /* background-color: rgb(151, 83, 19); */
+    /* text-align: center; */
+    margin-left: 29%;
+    /* justify-content:center; */
+    border-bottom: 2px solid rgb(5, 236, 5) ;
+    margin: 7px;
+    /* width: 150px; */
+}
+
+footer{
+    margin-top: 15px;
+    padding: 65px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    /* background: #000; */
+    background-color: darkred;
+    color: aliceblue;
+    text-align: center;
+}

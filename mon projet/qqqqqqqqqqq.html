@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil d'Accueil</title>
+    <!-- <link rel="stylesheet" href="qqqqqqqqqqq 22 .css"> -->
+    <link rel="stylesheet" href="qqqqqqqqqqqqq  11 .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Style pour les boutons et le compteur J'aime */
+        .mes_boutons {
+            margin-top: 20px;
+        }
+        #like_count {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="Entête">
+            <div id="Photo_de_Profil">
+                <img class="Photo_de_Profil" src="Logos microsoft/Yves 2.jpg" alt="Photo de Profil">
+                <h1 class="nom">KOUMAN KOUASSI YVES &reg;</h1>
+            </div>
+            <div id="sac_à_menu">
+                <ul class="club_menu">
+                    <li class="element" onclick="alert('Vous êtes déjà sur la page d\'accueil, vous pouvez scroller pour voir la suite.\n\nMerci !!!'); return false;"> Accueil </li>
+                    <li class="element">Présentations
+                        <span class="icône">&#9660;</span>
+                        <ul class="sous-menu">
+                            <li><a href="">Bibliographie</a></li>
+                            <li><a href="">~~ Origine ~~</a></li>
+                            <li><a href="">~~ Famille ~~</a></li>
+                        </ul>
+                    </li>
+                    <li class="element">Cursus Scolaire
+                        <span class="icône">&#9660;</span>
+                        <ul class="sous-menu">
+                            <li><a href="Profil Scolaire.html">Parcours Scolaire</a></li>
+                            <li><a href="cv de kouman.pdf">Curriculum vitae (CV)</a></li>
+                        </ul>
+                    </li>
+                    <li class="element">Photos
+                        <span class="icône">&#9660;</span>
+                        <ul class="sous-menu">
+                            <li><a href="">Photos de l'école</a></li>
+                            <li><a href="">Photos de vacances</a></li>
+                            <li><a href="">Mes Ami(e)s</a></li>
+                        </ul>
+                    </li>
+                    <li class="element">Centres d'Intérêts</li>
+                    <li class="element">Me contacter
+                        <span class="icône">&#9660;</span>
+                        <ul class="sous-menu">
+                            <li><a href="mailto:yveskouassikouman@gmail.com">E-mails</a></li>
+                            <li><a href="">Téléphones</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <br>
+    <hr class="trait-1">
+    <main>
+        <section id="le_corps">
+            <div class="message">
+                <h2 class="titre-message">MESSAGE</h2>
+                <p>
+                    Salut! <br>
+                    Vous êtes le/la bienvenu(e) sur mon profil. Sur cette page, je me présenterai. <br>
+                    Prenez la peine de faire le tour de mon profil; vous trouverez toutes les informations me concernant.
+                </p>
+            </div>
+            <br>
+            <div class="agenda">
+                <h2 class="titre-agenda">AGENDA</h2>
+                <p>
+                    En ce qui concerne ma disponibilité, vous pouvez également visiter mon agenda personnel.
+                    <br>Dans cet agenda, j'indiquerai mes temps libres et quels moments je peux vous répondre lorsque 
+                    vous me contactez, que ce soit par <a href="mailto:yveskouassikouman@gmail.com"><i>E-mail</i></a> ou <a href="#Me contacter"><em>Appel</em></a>.
+                </p>
+            </div>
+        </section>
+
+        <div id="mes_pages">
+            <nav class="case_facebook">
+                <a class="lien_fb" href="https://www.facebook.com/KoumanKouassiYves" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                    <h3>Visitez ma page Facebook</h3>
+                </a> 
+            </nav>
+            <nav class="case_whatsapp">
+                <a class="lien_whatsapp" href="https://wa.me/+0594601303" target="_blank">
+                    <i class="fab fa-whatsapp"></i> 
+                    <h3>Discutez avec moi sur WhatsApp</h3>
+                </a>
+            </nav>
+        </div> 
+
+        <button class="voir-mon-cv">
+            <a id="voir_mon_cv" href="Mon CV.pdf" target="_blank" rel="noopener noreferrer">Voir mon CV</a>
+            <a id="Télécharger_le_cv" href="Mon CV.pdf" download="Mon CV.pdf">Télécharger le CV</a>
+        </button>
+        <br>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae deserunt, dolores architecto ratione dolorum id ex ducimus esse natus sint velit optio provident iure soluta quos ab voluptate saepe.
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsa omnis aliquam, placeat quae ipsum itaque officiis labore?<br> Tenetur magnam tempora, est eum beatae libero qui rerum rem eos esse.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae deserunt, dolores architecto ratione dolorum id ex ducimus esse natus sint velit optio provident iure soluta quos ab voluptate saepe.
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Autem ipsa omnis aliquam, placeat quae ipsum itaque officiis labore? Tenetur magnam tempora, est eum beatae libero qui rerum rem eos esse.
+        </p>
+
+        <br>
+        <form class="mes_boutons" id="mes_boutons">
+            <input id="Jaime" type="button" value="J'aime">
+            <span id="like_count">0</span> <!-- Affiche le compteur J'aime -->
+            <input id="inviter" type="button" value="M'inviter">
+            <input id="Pas_maintenant" type="button" value="Pas maintenant">
+        </form>
+    </main>
+    <br><br>
+    <footer>
+       &copy; Page-Personnelle &reg;<u>KoumanKouassiYves401@gmail.com</u>
+    </footer>
+    <script src="mon_script.js"></script>
+    <script>
+        // JavaScript pour gérer le compteur "J'aime"
+        let cpt = 0; // Compteur initial
+        let liked = false; // Indique si "J'aime" a été cliqué
+
+        document.getElementById("Jaime").addEventListener("click", function() {
+            if (liked) {
+                cpt -= 1; // Décrémente si déjà aimé
+                liked = false; // Change l'état à "non aimé"
+            } else {
+                cpt += 1; // Incrémente si pas encore aimé
+                liked = true; // Change l'état à "aimé"
+            }
+            document.getElementById("like_count").textContent = cpt; // Met à jour l'affichage du compteur
+        });
+    </script>
+</body>
+</html>
